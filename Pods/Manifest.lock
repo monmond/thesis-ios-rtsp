@@ -1,0 +1,42 @@
+PODS:
+  - ijkplayerssl (1.1.4)
+  - SnapKit (5.0.1)
+  - SwifterSwift (5.0.0):
+    - SwifterSwift/AppKit (= 5.0.0)
+    - SwifterSwift/CoreGraphics (= 5.0.0)
+    - SwifterSwift/CoreLocation (= 5.0.0)
+    - SwifterSwift/Dispatch (= 5.0.0)
+    - SwifterSwift/Foundation (= 5.0.0)
+    - SwifterSwift/MapKit (= 5.0.0)
+    - SwifterSwift/SpriteKit (= 5.0.0)
+    - SwifterSwift/SwiftStdlib (= 5.0.0)
+    - SwifterSwift/UIKit (= 5.0.0)
+  - SwifterSwift/AppKit (5.0.0)
+  - SwifterSwift/CoreGraphics (5.0.0)
+  - SwifterSwift/CoreLocation (5.0.0)
+  - SwifterSwift/Dispatch (5.0.0)
+  - SwifterSwift/Foundation (5.0.0)
+  - SwifterSwift/MapKit (5.0.0)
+  - SwifterSwift/SpriteKit (5.0.0)
+  - SwifterSwift/SwiftStdlib (5.0.0)
+  - SwifterSwift/UIKit (5.0.0)
+
+DEPENDENCIES:
+  - ijkplayerssl (~> 1.1.3)
+  - SnapKit (~> 5.0.0)
+  - SwifterSwift (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - ijkplayerssl
+    - SnapKit
+    - SwifterSwift
+
+SPEC CHECKSUMS:
+  ijkplayerssl: 595307d7d3ca305450d22af27cd638c659fa988d
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
+
+PODFILE CHECKSUM: 71dac493d8dccb5117092011ef6e632ee27083e0
+
+COCOAPODS: 1.8.4

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,17 @@
 		A466334D237C04D700C0830E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A466334B237C04D700C0830E /* Main.storyboard */; };
 		A466334F237C04D800C0830E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A466334E237C04D800C0830E /* Assets.xcassets */; };
 		A4663352237C04D800C0830E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4663350237C04D800C0830E /* LaunchScreen.storyboard */; };
+		A466335B237C0CC800C0830E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466335A237C0CC800C0830E /* AppError.swift */; };
+		A466335F237C0D2800C0830E /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466335E237C0D2800C0830E /* AppConstant.swift */; };
+		A4663363237C0D3D00C0830E /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4663361237C0D3D00C0830E /* PlayerView.swift */; };
+		A4663364237C0D3D00C0830E /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4663362237C0D3D00C0830E /* PlayerVC.swift */; };
+		A4663367237C0E2F00C0830E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4663366237C0E2F00C0830E /* README.md */; };
+		A4663369237C0EF100C0830E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4663368237C0EF100C0830E /* App.swift */; };
+		C4EC52795E5A9719839ECF1E /* Pods_thesis_ios_rtsp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE65F2FFD5A93E8BDFBC946 /* Pods_thesis_ios_rtsp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4742094857B901726C0AC1B6 /* Pods-thesis-ios-rtsp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thesis-ios-rtsp.release.xcconfig"; path = "Target Support Files/Pods-thesis-ios-rtsp/Pods-thesis-ios-rtsp.release.xcconfig"; sourceTree = "<group>"; };
 		A4663342237C04D700C0830E /* thesis-ios-rtsp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thesis-ios-rtsp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4663345237C04D700C0830E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4663347237C04D700C0830E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,15 @@
 		A466334E237C04D800C0830E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4663351237C04D800C0830E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4663353237C04D800C0830E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A466335A237C0CC800C0830E /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		A466335E237C0D2800C0830E /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		A4663361237C0D3D00C0830E /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		A4663362237C0D3D00C0830E /* PlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		A4663365237C0DA000C0830E /* thesis-ios-rtsp-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thesis-ios-rtsp-Bridge-Header.h"; sourceTree = "<group>"; };
+		A4663366237C0E2F00C0830E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../thesis-ios-api/README.md"; sourceTree = "<group>"; };
+		A4663368237C0EF100C0830E /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		AA355BB38ABB3EB2BEF0DE26 /* Pods-thesis-ios-rtsp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thesis-ios-rtsp.debug.xcconfig"; path = "Target Support Files/Pods-thesis-ios-rtsp/Pods-thesis-ios-rtsp.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE65F2FFD5A93E8BDFBC946 /* Pods_thesis_ios_rtsp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thesis_ios_rtsp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +48,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EC52795E5A9719839ECF1E /* Pods_thesis_ios_rtsp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DA826A3A4AC5CD749EBC76A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE65F2FFD5A93E8BDFBC946 /* Pods_thesis_ios_rtsp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4663339237C04D700C0830E = {
 			isa = PBXGroup;
 			children = (
+				A4663366237C0E2F00C0830E /* README.md */,
+				A4663360237C0D3600C0830E /* player */,
+				A4663359237C0CC100C0830E /* app */,
 				A4663344237C04D700C0830E /* thesis-ios-rtsp */,
 				A4663343237C04D700C0830E /* Products */,
+				BD3BAF773B5A9D9BC82806FF /* Pods */,
+				7DA826A3A4AC5CD749EBC76A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +87,7 @@
 		A4663344237C04D700C0830E /* thesis-ios-rtsp */ = {
 			isa = PBXGroup;
 			children = (
+				A4663368237C0EF100C0830E /* App.swift */,
 				A4663345237C04D700C0830E /* AppDelegate.swift */,
 				A4663347237C04D700C0830E /* SceneDelegate.swift */,
 				A4663349237C04D700C0830E /* ViewController.swift */,
@@ -63,8 +95,36 @@
 				A466334E237C04D800C0830E /* Assets.xcassets */,
 				A4663350237C04D800C0830E /* LaunchScreen.storyboard */,
 				A4663353237C04D800C0830E /* Info.plist */,
+				A4663365237C0DA000C0830E /* thesis-ios-rtsp-Bridge-Header.h */,
 			);
 			path = "thesis-ios-rtsp";
+			sourceTree = "<group>";
+		};
+		A4663359237C0CC100C0830E /* app */ = {
+			isa = PBXGroup;
+			children = (
+				A466335A237C0CC800C0830E /* AppError.swift */,
+				A466335E237C0D2800C0830E /* AppConstant.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		A4663360237C0D3600C0830E /* player */ = {
+			isa = PBXGroup;
+			children = (
+				A4663362237C0D3D00C0830E /* PlayerVC.swift */,
+				A4663361237C0D3D00C0830E /* PlayerView.swift */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		BD3BAF773B5A9D9BC82806FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA355BB38ABB3EB2BEF0DE26 /* Pods-thesis-ios-rtsp.debug.xcconfig */,
+				4742094857B901726C0AC1B6 /* Pods-thesis-ios-rtsp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4663356237C04D800C0830E /* Build configuration list for PBXNativeTarget "thesis-ios-rtsp" */;
 			buildPhases = (
+				810D10A1B3ADBB1ACF5B99E0 /* [CP] Check Pods Manifest.lock */,
 				A466333E237C04D700C0830E /* Sources */,
 				A466333F237C04D700C0830E /* Frameworks */,
 				A4663340237C04D700C0830E /* Resources */,
+				F4DD6C4A8E435957B950559F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +189,67 @@
 			files = (
 				A4663352237C04D800C0830E /* LaunchScreen.storyboard in Resources */,
 				A466334F237C04D800C0830E /* Assets.xcassets in Resources */,
+				A4663367237C0E2F00C0830E /* README.md in Resources */,
 				A466334D237C04D700C0830E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		810D10A1B3ADBB1ACF5B99E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thesis-ios-rtsp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DD6C4A8E435957B950559F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thesis-ios-rtsp/Pods-thesis-ios-rtsp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thesis-ios-rtsp/Pods-thesis-ios-rtsp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-thesis-ios-rtsp/Pods-thesis-ios-rtsp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A466333E237C04D700C0830E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A466335B237C0CC800C0830E /* AppError.swift in Sources */,
+				A466335F237C0D2800C0830E /* AppConstant.swift in Sources */,
 				A466334A237C04D700C0830E /* ViewController.swift in Sources */,
+				A4663363237C0D3D00C0830E /* PlayerView.swift in Sources */,
 				A4663346237C04D700C0830E /* AppDelegate.swift in Sources */,
+				A4663369237C0EF100C0830E /* App.swift in Sources */,
+				A4663364237C0D3D00C0830E /* PlayerVC.swift in Sources */,
 				A4663348237C04D700C0830E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +392,7 @@
 		};
 		A4663357237C04D800C0830E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA355BB38ABB3EB2BEF0DE26 /* Pods-thesis-ios-rtsp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,6 +404,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ssankosik.thesis-ios-rtsp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "thesis-ios-rtsp/thesis-ios-rtsp-Bridge-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +412,7 @@
 		};
 		A4663358237C04D800C0830E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4742094857B901726C0AC1B6 /* Pods-thesis-ios-rtsp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +424,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ssankosik.thesis-ios-rtsp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "thesis-ios-rtsp/thesis-ios-rtsp-Bridge-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-thesis-ios-rtsp/Pods-thesis-ios-rtsp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
+${PODS_ROOT}/ijkplayerssl/IJKMediaFrameworkWithSSL.framework
